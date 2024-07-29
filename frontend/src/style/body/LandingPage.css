@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.landing-page {
+    display: flex;
+    flex-direction: column;
+    max-width: 1920px;
+    margin: 0 auto;
+    background: #14110E;
+    color: white;
+}
+
+.LandingTitle {
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    font-size: 72px;
+    line-height: 85.6px;
+}
+
+.landingTitleDesc {
+    font-family: "Urbanist", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 36px;
+    text-align: left;
+}
+
+.hero-section {
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    position: relative;
+    color: white;
+    text-align: center;
+    margin-top: 125px; /* To account for the fixed header */
+}
+
+.hero-content {
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 10px;
+    position: absolute; /* Positioning relative to the hero-section */
+    top: 50%; /* Centering the content */
+    transform: translateY(-50%); /* Centering the content */
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.hero-button {
+    width: auto;
+    height: auto;
+    padding: 24px 40px;
+    opacity: 0.9;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.78px;
+    text-align: left;
+    background: #C99E71;
+    border: none;
+    margin-right: 100px;
+}
+
+.hero-button:hover {
+    background-color: #d08900;
+}
+.maxWithIsLandingPage{
+    /*max-width: 1170px;*/
+    /*justify-content: center;*/
+}
