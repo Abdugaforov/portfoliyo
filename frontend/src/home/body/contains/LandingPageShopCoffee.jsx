@@ -16,8 +16,8 @@ function LandingPageShopCoffee() {
                     <img src={img1} alt="Coffee 3" className="image2"/>
                 </div>
                 <div className="text-section">
-                    <h2 className="title">Our history</h2>
-                    <h3 className="subtitle">Create a new story with us</h3>
+                    <p className="title">Our history</p>
+                    <h2 className="subtitle">Create a new story with us</h2>
                     <p className="description">
                         Mauris Rhoncus In Imperdiet Placerat. Vestibulum Erat Nisl Suscipit Ligula Volutpat A, feugiat Ut Maximus. Class Mass Nibh Endumitiu. Donec E Nibh Maximus. Eu, mattis Nuce, Present Qui Quis Quam Venen Atis Fringilla. Mauris Vestibulum Et Tellus Ameda Mattis. Aliquam Erat Volutpat.
                     </p>

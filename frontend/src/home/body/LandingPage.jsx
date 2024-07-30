@@ -7,6 +7,7 @@ import coffeeImage from "../../pictures/body/cofe/Rectangle 12.svg"; // Ensure t
 import LandingPageCoffee from "./contains/LandingPageCoffee.jsx";
 import LandingPageShopCoffee from "./contains/LandingPageShopCoffee.jsx";
 import LandingPageOpenShop from "./contains/LandingPageOpenShop.jsx";
+import LandingPageShop from "./contains/landing/LandingPageShop.jsx";
 // import VideoModal from "../../home/body/contains/VideoMaodal.jsx"; // Import the VideoModal component
 
 function LandingPage() {
@@ -23,8 +24,7 @@ function LandingPage() {
     return (
         <div className="landing-page">
             <Header />
-
-            <div >
+            <div>
                 <div className="hero-section" style={{backgroundImage: `url(${coffeeImage})`}}>
                     <div className="hero-content">
                         <h1 className="LandingTitle">Enjoy Your Morning Coffee.</h1>
@@ -35,20 +35,23 @@ function LandingPage() {
                     </div>
                 </div>
 
-                <div className={"maxWithIsLandingPage"}>
+                <div className="maxWithIsLandingPage">
                     <div>
-                        <LandingPageCoffee />
+                        <LandingPageCoffee/>
                     </div>
                     <div>
-                        <LandingPageShopCoffee />
+                        <LandingPageShopCoffee/>
                     </div>
                     <div>
                         <LandingPageOpenShop/>
                     </div>
+                    <div>
+                        <LandingPageShop/>
+                    </div>
                 </div>
             </div>
 
-            <Footer />
+            <Footer/>
 
             {/*<VideoModal*/}
             {/*    isOpen={isModalOpen}*/}

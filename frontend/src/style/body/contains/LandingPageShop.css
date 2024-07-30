@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.LandingPageShopContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1C1814;
+    padding: 0 200px;
+    border-radius: 10px;
+    text-align: left;
+
+
+}
+
+.LandingPageShopImageContainer {
+    flex: 1;
+    text-align: center;
+}
+
+.LandingPageShopImage {
+    width: 226px;
+    height: 359px;
+    top: 3467px;
+    left: 770px;
+    angle: -180 deg;
+
+}
+
+.LandingPageShopTextContainer {
+    flex: 2;
+    color: white;
+    padding-left: 20px;
+}
+
+.LandingPageShopTitle {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.LandingPageShopText {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.LandingPageShopButton {
+    padding: 10px 20px;
+    background: #FFA726;
+    color: #1C1814;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}

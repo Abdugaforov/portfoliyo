@@ -7,8 +7,6 @@
 }
 
 .landing-page {
-    display: flex;
-    flex-direction: column;
     max-width: 1920px;
     margin: 0 auto;
     background: #14110E;
@@ -84,7 +82,12 @@
 .hero-button:hover {
     background-color: #d08900;
 }
-.maxWithIsLandingPage{
-    /*max-width: 1170px;*/
-    /*justify-content: center;*/
+
+.maxWithIsLandingPage {
+    width: 1140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto; /* Ekran o'rtasiga joylash uchun */
 }
