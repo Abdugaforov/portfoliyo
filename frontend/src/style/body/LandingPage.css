@@ -7,8 +7,6 @@
 }
 
 .landing-page {
-    display: flex;
-    flex-direction: column;
     max-width: 1920px;
     margin: 0 auto;
     background: #14110E;
@@ -21,7 +19,7 @@
     font-style: normal;
     text-align: left;
     font-size: 72px;
-    line-height: 85.6px;
+    line-height: 86px;
 }
 
 .landingTitleDesc {
@@ -43,7 +41,6 @@
     text-align: center;
     margin-top: 125px; /* To account for the fixed header */
 }
-
 .hero-content {
     max-width: 600px;
     padding: 20px;
@@ -52,17 +49,14 @@
     top: 50%; /* Centering the content */
     transform: translateY(-50%); /* Centering the content */
 }
-
 .hero-content h1 {
     font-size: 48px;
     margin-bottom: 20px;
 }
-
 .hero-content p {
     font-size: 18px;
     margin-bottom: 30px;
 }
-
 .hero-button {
     width: auto;
     height: auto;
@@ -80,11 +74,14 @@
     border: none;
     margin-right: 100px;
 }
-
 .hero-button:hover {
     background-color: #d08900;
 }
-.maxWithIsLandingPage{
-    /*max-width: 1170px;*/
-    /*justify-content: center;*/
+.maxWithIsLandingPage {
+    width: 1140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto; /* Ekran o'rtasiga joylash uchun */
 }

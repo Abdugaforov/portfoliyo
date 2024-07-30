@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.landing_shopOpenProduct {
+    padding: 50px 0;
+    text-align: center;
+    /*background-color: #1b1b1b; !* assuming dark background color *!*/
+}
+
+.landing_shopOpenProduct-header {
+    margin-bottom: 20px;
+}
+
+.landing_shopOpenProduct-title1{
+    font-family: "Urbanist",sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.6px;
+    text-align: center;
+    color: #C99E71;
+
+
+}
+
+.landing_shopOpenProduct-title {
+    font-family: 'Righteous', sans-serif;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+
+.landing_shopOpenProduct-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.landing_card {
+
+    padding: 15px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    gap: 2%;
+    width: 550px;
+    height: 120px;
+    top: 358px;
+    left: 980px;
+    flex-wrap: wrap;
+    border: 1px solid #32323D
+}
+
+.landing_card-img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.landing_card-content {
+    flex-grow: 1;
+}
+
+.landing_card-title {
+    font-family: 'Righteous', sans-serif;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.landing_card-price {
+    font-family: 'Righteous', sans-serif;
+    font-size: 16px;
+    color: #C99E71;
+    margin: 0;
+}
