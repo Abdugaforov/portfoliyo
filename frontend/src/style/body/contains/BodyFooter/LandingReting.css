@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* LandingReting.css */
+
+
+
+.ozod-landingReting {
+    padding: 20px;
+    /*background-color: #333;*/
+    color: #fff;
+    font-family: Arial, sans-serif;
+    width: 100%;
+}
+
+.ozod-landingReting-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.ozod-landingReting-title-prefix {
+    font-family: 'Urbanist',sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    /*text-align: left;*/
+
+    color: #C99E71;
+}
+
+.ozod-landingReting-title-main {
+    font-family: 'Righteous',sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 61px;
+    /*text-align: left;*/
+
+}
+
+.ozod-landingReting-cards {
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    justify-content: space-between;
+}
+
+.ozod-landingReting-card {
+    /*background-color: #444;*/
+    background: #1C1814;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0 10px;
+    width: 540px;
+    opacity: 0;
+    animation: slideIn 0.5s forwards;
+    text-align: left;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.ozod-landingReting-card-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.ozod-landingReting-card-img {
+    width: 60px;
+    height: 60px;
+
+    margin-right: 10px;
+}
+
+.ozod-landingReting-card-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.ozod-landingReting-card-job {
+    font-size: 14px;
+    color: #C99E71;
+    margin: 0;
+}
+
+.ozod-landingReting-card-text {
+    margin: 15px 0;
+    font-size: 16px;
+}
+
+.ozod-landingReting-card-stars {
+    display: flex;
+    align-items: center;
+}
+
+.ozod-landingReting-star {
+    width: 20px;
+    margin-right: 5px;
+}
+
+.ozod-landingReting-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.ozod-landingReting-footer-buttons {
+    display: flex;
+}
+
+.ozod-landingReting-footer-button {
+    background: none;
+    border: none;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 50%;
+    /*background-color: #32323D;*/
+}
+
+.ozod-landingReting-card-count {
+    font-size: 14px;
+}

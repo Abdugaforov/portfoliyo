@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.ozod-location-container {
+
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.ozod-location-header {
+    font-size: 18px;
+    color: #c99e71;
+    margin-bottom: 10px;
+}
+
+.ozod-location-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.ozod-map-container {
+    width: 525px;
+    height: 602px;
+
+
+
+}
+
+.ozod-form-container {
+    width: 570px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ozod-form-title {
+    font-family: 'Righteous',sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 59.6px;
+    /*text-align: left;*/
+    text-align: center;
+}
+
+.ozod-booking-form {
+    width: 585px;
+    height: 602px;
+    top: 1619px;
+    left: 960px;
+    background: #1C1814;
+    padding: 20px;
+
+}
+
+.ozod-form-group {
+    margin-bottom: 15px;
+}
+
+.ozod-input {
+    width: 489px;
+    height: 64px;
+    top: 1841px;
+
+    /*padding: 0 5px;*/
+
+
+    background: #14110E;
+    color: #fff;
+    outline: none;
+}
+
+.ozod-input::placeholder {
+    color: #7a7a7a;
+}
+
+.ozod-submit-button {
+    width: 229px;
+    height: 64px;
+    background-color: #c99e71;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+
+.ozod-submit-button:hover {
+    background-color: #b18a5f;
+}

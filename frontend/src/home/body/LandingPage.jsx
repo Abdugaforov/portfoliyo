@@ -9,6 +9,8 @@ import LandingPageShopCoffee from "./contains/LandingPageShopCoffee.jsx";
 import LandingPageOpenShop from "./contains/LandingPageOpenShop.jsx";
 import LandingPageShop from "./contains/landing/LandingPageShop.jsx";
 import LandingPageShopOpenProduct from "./contains/landing/LandingPageShopOpenProduct.jsx";
+import LandingReting from "./contains/BodyFooter/LandingReting.jsx";
+import LandingLocation from "./contains/BodyFooter/LandingLocation.jsx";
 // import VideoModal from "../../home/body/contains/VideoMaodal.jsx"; // Import the VideoModal component
 
 function LandingPage() {
@@ -51,6 +53,10 @@ function LandingPage() {
                     </div>
                     <div>
                         <LandingPageShopOpenProduct/>
+                    </div>
+                    <div>
+                        <LandingReting/>
+                        <LandingLocation/>
                     </div>
                 </div>
             </div>
